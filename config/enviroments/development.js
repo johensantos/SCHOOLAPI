@@ -1,9 +1,10 @@
 module.exports = {
     PORT: process.env.PORT,
     DB: {
-        user: "postgres",
-        password: 'school_dev',
+        username: 'root',
+        password: '',
+        database: 'prueba',
         host: 'localhost',
-        dialect: 'postgres'
+        dialect: 'mariadb'
     }
 };

@@ -9,8 +9,8 @@ class UserService {
 
     async getUsers() {
         // do something
-
-        const users =  this._userRepository.getUsers();
+//map funciona en arrays y recibe un callback
+        const users = await this._userRepository.getUsers();
         return users.map(toDomainEntity);
     }
 
