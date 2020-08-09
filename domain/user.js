@@ -6,7 +6,7 @@ const User = attributes({
         required: true
     },
     lastname: {
-        type: status
+        type: String,
     }
 })(class User {
     getCompleteName() {

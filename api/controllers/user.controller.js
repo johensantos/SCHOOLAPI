@@ -5,7 +5,8 @@ class UserController {
     }*/
 
 
-    constructor() {
+    constructor({UserService}) {
+        this._userService = UserService;
     }
 
     sayHello(req, res) {

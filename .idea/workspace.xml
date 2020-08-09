@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659426b2-e72e-4a7e-b7e9-5aa8486370fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/domain/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dal/entities/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dal/entities/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dal/mappers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dal/repositories/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dal/repositories/user.repository.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/domain/mappers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/services/user.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/container.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/user.controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/domain/user.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -26,9 +35,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="ts.external.directory.path" value="G:\software\PhpStorm 2019.2.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -56,6 +67,9 @@
       <workItem from="1596509238900" duration="1758000" />
       <workItem from="1596682211468" duration="6201000" />
       <workItem from="1596767632711" duration="2554000" />
+      <workItem from="1596898629755" duration="433000" />
+      <workItem from="1596937509707" duration="46000" />
+      <workItem from="1596955665097" duration="4642000" />
     </task>
     <servers />
   </component>
