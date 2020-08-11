@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="659426b2-e72e-4a7e-b7e9-5aa8486370fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/dtos/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/dtos/user.dto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dal/entities/classrooms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dal/entities/course.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dal/entities/lecturers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dal/entities/usercourses.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dal/repositories/course.repository.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/models/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/domain/user.business.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/container.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/controllers/user.controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/controllers/user.controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/routes/user.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/user.routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/entities/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/dal/entities/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dal/repositories/user.repository.js" beforeDir="false" afterPath="$PROJECT_DIR$/dal/repositories/user.repository.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/domain/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/mappers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/domain/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/user.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/user.service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/enviroments/development.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/enviroments/development.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/domain/user.business.js" beforeDir="false" afterPath="$PROJECT_DIR$/domain/user.business.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +25,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -66,6 +49,14 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../NodeJs/node" path-to-js-file="$PROJECT_DIR$/index.js">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.js" type="NodeJSConfigurationType" path-to-node="$PROJECT_DIR$/../../../NodeJs/node" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,6 +77,8 @@
       <workItem from="1596989258803" duration="4362000" />
       <workItem from="1596998677576" duration="7478000" />
       <workItem from="1597013556430" duration="4077000" />
+      <workItem from="1597110617285" duration="795000" />
+      <workItem from="1597116192261" duration="4137000" />
     </task>
     <servers />
   </component>
@@ -104,5 +97,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/domain/user.business.js</url>
+          <line>29</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

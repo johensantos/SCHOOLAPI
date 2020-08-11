@@ -5,6 +5,7 @@ module.exports = {
         password: '',
         database: 'prueba',
         host: 'localhost',
-        dialect: 'mariadb'
+        dialect: 'mariadb',
+        logging: false
     }
 };

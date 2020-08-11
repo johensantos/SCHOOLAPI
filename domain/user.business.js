@@ -22,7 +22,7 @@ class UserBusiness {
     async createUser(user) {
         user = mapper(User, user);
         const createdUser = await this._userRepository.createUser(user);
-        return mapper(User, createdUser);
+        return mapper(User, createdUser.toJSON());
     }
 
     async updateUser(id, user) {
