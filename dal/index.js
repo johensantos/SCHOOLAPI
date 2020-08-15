@@ -1,8 +1,12 @@
+
+//INDEX ANTIGUO, SE MOVIÓ A MODELS
+// FORMA DE HACER LA EXPORTACION CON LA NUEVA VERSION DE AWILIX
+/*
 const fs = require("fs");
 const path = require("path");
 const Sequelize = require("sequelize");
 const basename = path.basename(__filename);
-const { DB } = require("../../config/enviroments");
+const { DB } = require("../config/enviroments");
 const config = DB;
 const db = {};
 
@@ -28,3 +32,4 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
+*/
